@@ -1,5 +1,10 @@
 require 'rubyserial'
 
+# Call this script by
+# ruby sender.rb /path/to/gcode.ngc /dev/ttyUSB0
+#
+# More information: https://georf.de/1318/plotter-aus-alten-druckern-scannern-und-cd-laufwerken/
+
 
 class Sender
     attr_accessor :content, :device, :write_possible
