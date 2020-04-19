@@ -32,20 +32,20 @@
 #define PI 3.1415926535897932384626433832795
 
 // ----- motor definitions
-#define PEN_PIN1 4
-#define PEN_PIN2 3
-#define PEN_PIN3 5
-#define PEN_PIN4 6
+#define PEN_PIN1 3
+#define PEN_PIN2 2
+#define PEN_PIN3 4
+#define PEN_PIN4 5
 
-#define AXIS_Y_PIN1 A2
-#define AXIS_Y_PIN2 A1
-#define AXIS_Y_PIN3 A3
-#define AXIS_Y_PIN4 A4
+#define AXIS_Y_PIN1 12
+#define AXIS_Y_PIN2 11
+#define AXIS_Y_PIN3 10
+#define AXIS_Y_PIN4 9
 
-#define AXIS_X_PIN1 10
-#define AXIS_X_PIN2 9
-#define AXIS_X_PIN3 12
-#define AXIS_X_PIN4 11
+#define AXIS_X_PIN1 A2
+#define AXIS_X_PIN2 A1
+#define AXIS_X_PIN3 A3
+#define AXIS_X_PIN4 A4
 
 #define STEPS_PER_MM 24
 #define NUDGE STEPS_PER_MM * 2  // move pen 2mm (change number to suit)
